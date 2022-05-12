@@ -1,6 +1,7 @@
 import threading
 import socket
 import os
+# Delete and retype the dotenv things under this line
 from dotenv import load_dotenv
 
 host = '127.0.0.1'
