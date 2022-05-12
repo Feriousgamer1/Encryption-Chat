@@ -4,7 +4,7 @@ import os
 # Delete and retype the dotenv things under this line
 from dotenv import load_dotenv
 
-host = '127.0.0.1'
+host = '127.0.0.1' #LocalHost
 port = 55555
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
