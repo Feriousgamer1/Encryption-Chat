@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 
 host = '127.0.0.1' #LocalHost
-port = 55555
+port = 55555 #port 55555
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server.bind((host, port))
